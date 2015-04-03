@@ -1,0 +1,46 @@
+/* Base Fonts */
+@import url(http://fonts.googleapis.com/css?family=Lato|Oswald);
+
+/* Base Size */
+$base : 16px;
+$font-lato : 'Lato', sans-serif;
+$font-oswald : 'Oswald', sans-serif;
+
+
+/*Inline Media Queries*/
+/* Media Queries 
+small : max-width: 640px
+medium : min-width: 641px, max-width: 960px
+large : min-width: 961px
+*/
+
+$small-only : "only screen and (max-width:640px)";
+$medium-down : "only screen and (max-width:960px)";
+$medium-only : "only screen and (min-width:641px) and (max-width:960px)";
+$medium-up : "only screen and (min-width:641px)";
+$large-only : "only screen and (min-width:961px)";
+
+/* :: Colors :: */ 
+$menu_plus : #F1592A;
+// #F1592A   menu box
+$link_hover : #E25E33;
+// #E25E33   hover
+$border_hover : #F7941E;
+// #F7941E   border
+$footer_hover : #F1592A;
+// #F1592A   footer icons
+$title_color : #3A3A3C;
+// #3A3A3C   title font
+$meta_color : #9E9FA2;
+// #9E9FA2   meta 
+$nav_color : #818285;
+// #818285   nav
+$dark_grey : #3A3A3C; 
+// #3A3A3C   nav menu
+$menu_icon : #B74326; 
+
+$white : #fff;
+
+/* :: Widths :: */
+
+$maxed_width : 700px;

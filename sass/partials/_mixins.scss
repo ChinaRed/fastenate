@@ -1,0 +1,11 @@
+// Fonts
+@mixin mixin_fonts( $font_size, $line_height, $font_color ){
+  font-size : $font-size;
+  line-height : $line-height;
+  color : $font_color;
+}
+// Background
+@mixin mixin_bg($bg_size, $bg_repeat){
+  background-size : $bg_size;
+  background-repeat : $bg_repeat;
+}
